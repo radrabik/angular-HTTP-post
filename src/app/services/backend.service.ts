@@ -10,7 +10,8 @@ export class BackendService {
 
   httpOptions = {
     headers: new HttpHeaders({
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      'my-header': 'rado'
     }),
     withCredentials: true
   };
